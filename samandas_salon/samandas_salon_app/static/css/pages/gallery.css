@@ -1,0 +1,18 @@
+.gallery{
+    background-color: #D4F6CC !important;
+    text-align: center !important;
+    padding-top: 3rem !important;
+}
+
+.section-header{
+    margin: auto !important;
+    text-align: center !important;
+    padding-bottom: 2rem !important;
+    background: linear-gradient(to right, #000 0%, #6D8B74 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.gallery-sm{
+    display: none;
+}

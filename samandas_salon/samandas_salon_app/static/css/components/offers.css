@@ -1,0 +1,19 @@
+.offers-wrapper{
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    font-size: 1.2rem !important;
+    background-image: url(../../images/offers-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 1.5rem !important;
+}
+
+.carousel-inner h3{
+    text-shadow: 1px 1px rgb(146, 146, 146) !important;
+}
+
+.carousel-inner{
+    text-align: center !important;
+    text-shadow: 0.1px 0.1px rgb(146, 146, 146) !important;
+}

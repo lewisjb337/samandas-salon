@@ -1,0 +1,299 @@
+{% extends 'index.html' %}
+
+<!-- Tab Title -->
+{% block tab_title %}Samadas Salon - Home{% endblock %}
+
+<!-- Body Content -->
+{% block body_content %}
+<!-- Offers -->
+<div class="offers-wrapper" id="offers-tab">
+    <button onclick="closeSection();" type="button" class="btn-close btn-close-white close-btn" aria-label="Close"></button>
+    <div class="container p-4">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-wrapper-mq">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h3>Hot stones upgrade</h3>
+                        <p>
+                            Upgrade any massage to include hot stones for an extra £5.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Decléor facial upgrade</h3>
+                        <p>
+                            Upgrade any facial to include the use of decléor products.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Refer a friend</h3>
+                        <p>
+                            £5 off your next treatment when you refer a frind and they mention your name at their booked appointment
+                            with us.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Gift vouchers</h3>
+                        <p>
+                            We offer £10, £15, £20, and £50 gift vouchers, to be spent on any treatment or product from us.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+    </div>
+</div>
+<!-- Hero Element -->
+<div class="hero-wrapper">
+    <div class="container">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center hero-content">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 hero-text-wrapper">
+                <h1 class="display-4 fw-bold lh-1 text-black hero-text">Beauty salon, with the spa vibes</h1>
+                <p class="lead text-black hero-text-lower">
+                    Located in the village of Potter Heigham in Norfolk, we have created our Spa Vibe Salon! Relaxation is
+                    the ultimate goal! Bespoke luxury hand and feet treatments, facials, massage, lashing and more.
+                </p>
+            </div>
+            {% load static %}
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+                <img class="hero-image" src="{% static 'images/who-are-we.jpg' %}" alt="Hero Image" width="375">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services -->
+<div class="services-wrapper p-4">
+    <div class="container">
+        <div class="section-header">
+            <h1 class="mt-4">Services</h1>
+            <p>View some of the services we offer</p>
+        </div>
+        <div class="row p-4 services-text-wrapper lg-screen">
+            <div class="col-4">
+                <h3>Spa manicure</h3>
+                <p class="lead services-text">
+                    If you’ve not yet had yourself a paraffin wax manicure then this is an absolute must! With 12
+                    different
+                    benefits to the hands, cuticles and nails.
+                </p>
+            </div>
+            <div class="col-4">
+                <h3>Polygel extensions</h3>
+                <p class="lead services-text">
+                    Brand new and extremely popular. Polygel is the perfect mix of acrylic and gel! Strong like acrylic,
+                    but soft and non damaging to the natural nail!
+                </p>
+            </div>
+            <div class="col-4">
+                <h3>Body scub and polish</h3>
+                <p class="lead services-text">
+                    Sugar scrub and Himalayan salts exfoliated remove dead skin cells . Hot towels wrap you up to
+                    encourage
+                    the products to work deep into your skin.
+                </p>
+            </div>
+        </div>
+        <div class="row p-4 services-text-wrapper sm-screen">
+            <div class="col-12">
+                <h3>Spa manicure</h3>
+                <p class="lead services-text">
+                    If you’ve not yet had yourself a paraffin wax manicure then this is an absolute must! With 12
+                    different
+                    benefits to the hands, cuticles and nails.
+                </p>
+            </div>
+            <br>
+            <div class="col-12">
+                <h3>Polygel extensions</h3>
+                <p class="lead services-text">
+                    Brand new and extremely popular. Polygel is the perfect mix of acrylic and gel! Strong like acrylic,
+                    but soft and non damaging to the natural nail!
+                </p>
+            </div>
+            <br>
+            <div class="col-12">
+                <h3>Body scub and polish</h3>
+                <p class="lead services-text">
+                    Sugar scrub and Himalayan salts exfoliated remove dead skin cells . Hot towels wrap you up to
+                    encourage
+                    the products to work deep into your skin.
+                </p>
+            </div>
+        </div>
+        <div class="container mb-4 mt-2">
+            <div class="row">
+                <div class="col text-center">
+                    <a class="btn btn-default custom-btn" href="services" role="button">View Services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- What do we offer -->
+<div class="about-wrapper p-4">
+    <div class="container">
+        <div class="row align-items-center m-4">
+            <div class="col-12">
+                <div class="about-section-header">
+                    <h1>About the salon</h1>
+                    <p>
+                        Here is a brief introduction on us and what we offer.
+                    </p>
+                </div>
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
+                    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                        <p class="lead text-white about-text">
+                            Located in the village of Potter Heigham, Samandas Salon is a little family run salon, that has progressed
+                            beautifully from a room in the conservatory to an ever-expanding multi-room salon, providing a luxurious
+                            spa atmosphere to our clients. As a small business you'll have the luxury of knowing you will be the only 
+                            client in your appointment (unless you choose to bring a friend) so you have peace of mind knowing your
+                            time will be quiet, calm and all about you.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+                        <img class="about-img" src="{% static 'images/amanda.jpg' %}" alt="About Image" width="350">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- CTA -->
+<div class="cta-wrapper p-4">
+    <div class="container">
+        <div class="row align-items-center m-4">
+            <div class="col-12">
+                <div class="section-header">
+                    <h1>Get in touch</h1>
+                    <p>
+                        Reach out to us through our contact page to book your appointment or ask any questions you may
+                        have <br>
+                        regarding our services and availability.
+                    </p>
+                </div>
+
+                <div class="container git-section">
+                    <div class="row">
+                        <div class="col text-center">
+                            <a class="btn btn-default custom-btn" href="contact" role="button">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Work -->
+<div class="our-work p-4">
+    <div class="section-header">
+        <h1 class="mt-4">Our Work</h1>
+        <p>Take a look at some of our work</p>
+    </div>
+    <div class="container cards-container">
+        <div class="row p-4 lg-screen">
+            <div class="col-4">
+                <div class="card shadow-lg">
+                    <img class="card-img-top work-example" src="{% static 'images/work-example-one.jpg' %}"
+                        alt="Work-Example-One">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto">
+                                <h3 class="text-white">Nails</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card shadow-lg">
+                    <img class="card-img-top work-example" src="{% static 'images/work-example-two.jpg' %}"
+                        alt="Work-Example-One">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto">
+                                <h3 class="text-white">Lashes</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card shadow-lg">
+                    <img class="card-img-top work-example" src="{% static 'images/work-example-three.jpg' %}"
+                        alt="Work-Example-One">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto">
+                                <h3 class="text-white">Spa Treatments</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-4 sm-screen section-mq">
+            <div class="col-12">
+                <div class="card shadow-lg">
+                    <img class="card-img-top work-example" src="{% static 'images/work-example-one-sm.jpg' %}"
+                        alt="Work-Example-One">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto">
+                                <h3 class="text-white">Nails</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-12">
+                <div class="card shadow-lg">
+                    <img class="card-img-top work-example" src="{% static 'images/work-example-two-sm.jpg' %}"
+                        alt="Work-Example-One">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto">
+                                <h3 class="text-white">Lashes</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-12">
+                <div class="card shadow-lg">
+                    <img class="card-img-top work-example" src="{% static 'images/work-example-three-sm.jpg' %}"
+                        alt="Work-Example-One">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto">
+                                <h3 class="text-white">Spa Treatments</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-2 mt-2">
+            <div class="row">
+                <div class="col text-center">
+                    <a class="btn btn-default custom-btn" href="gallery" role="button">View Gallery</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function closeSection() {
+        document.getElementById("offers-tab").style.display = "none";
+    }
+</script>
+{% endblock %}

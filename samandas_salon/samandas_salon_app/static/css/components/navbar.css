@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive !important;
+    color: #000 !important;
+}
+
+.brand-wrapper{
+    max-width: 1080px !important;
+    margin: auto !important;
+}
+
+.main-nav{
+    margin-top: -0.7rem !important;
+}
+
+.navbar-nav{
+    margin: auto !important;
+}
+
+.nav-link{
+    color: #000 !important;
+    transition: transform .2s;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 0rem 1rem;
+}
+
+.nav-link:hover{
+    transform: scale(1.13);
+}

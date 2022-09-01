@@ -1,0 +1,27 @@
+.our-work{
+    background-color: #dededc !important;
+    background-image: url('../../images/our-work-image.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 100%;
+}
+
+.section-header{
+    margin: auto !important;
+    text-align: center !important;
+    background: linear-gradient(to right, #000 0%, #6D8B74 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.card{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.work-example{
+    border-radius: 1rem !important;
+    border: 5px solid #6D8B74;
+    width: 25rem;
+    height: auto !important;
+}

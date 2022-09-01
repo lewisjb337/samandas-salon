@@ -1,0 +1,33 @@
+.hero{
+    margin-top: 5rem !important;
+    text-shadow: 2px #000 !important;
+    background: linear-gradient(to right, #000 0%, #6D8B74 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.hero-content{
+    padding: 5rem 0 !important;
+}
+
+.hero-wrapper{
+    background: url('../../images/background.jpg');
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.hero-text{
+    text-shadow: #000 !important;
+    background: linear-gradient(to right, #000 0%, #6D8B74 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.hero-image{
+    border-radius: 50% !important;
+    border: 5px solid #6D8B74;
+}
+
+.git-section{
+    margin-top: -2rem !important;
+}

@@ -1,0 +1,172 @@
+@media screen and (max-width: 1400px) {
+    .carousel-wrapper-mq{
+        margin: auto !important;
+        max-width: 850px !important;
+    }
+
+    .work-example{
+        width: 20rem !important;
+    }
+
+    .card{
+        width: 20rem !important;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .contact-form{
+        margin: auto !important;
+        width: 60% !important;
+    }
+
+    .contact-section-mq{
+        padding-bottom: -3rem !important;
+    }
+
+    .mapouter{
+        margin: 0 auto -12rem auto !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .carousel-wrapper-mq{
+        margin: auto !important;
+        max-width: 700px !important;
+    }
+
+    .hero-text{
+        font-size: 40px !important;
+    }
+
+    .hero-text-lower{
+        font-size: 17px !important;
+    }
+
+    .hero-image{
+        width: 250px !important;
+    }
+
+    .services-text{
+        font-size: 17px !important;
+    }
+
+    .services-text-wrapper{
+        margin-top: -2rem !important;
+    }
+
+    .about-text{
+        padding-top: 1rem !important;
+        font-size: 17px !important;
+    }
+
+    .about-img{
+        width: 250px !important;
+    }
+
+    .work-example{
+        width: 15rem !important;
+    }
+
+    .card{
+        width: 15rem !important;
+    }
+
+    .sm-screen-pricing{
+        display: block !important;
+        text-align: center !important;
+        padding: 2rem !important;
+    }
+
+    .lg-screen-pricing{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .carousel-wrapper-mq{
+        max-width: 500px !important;
+    }
+
+    .hero-image{
+        display: none !important;
+    }
+
+    .about-img{
+        display: none !important;
+    }
+
+    .sm-screen{
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .lg-screen{
+        display: none !important;
+    }
+
+    .section-mq{
+        margin-top: -3.5rem !important;
+        margin-right: 3.7rem !important;
+    }
+
+    .work-example{
+        width: 20rem !important;
+    }
+
+    .card{
+        width: 20rem !important;
+        text-align: left !important;
+        margin: auto !important;
+    }
+
+    .xsm-screen-pricing{
+        display: block !important;
+        text-align: center !important;
+        padding: 2rem !important;
+    }
+
+    .sm-screen-pricing{
+        display: none !important;
+    }
+
+    .cards-container{
+        margin: auto !important;
+        padding: 0 !important;
+    }
+
+    .gallery-sm{
+        display: inline-flex !important;
+        margin-right: 3.5rem !important;
+    }
+
+    .gallery-lg{
+        display: none !important;
+    }
+
+    .card{
+        width: 15rem !important;
+    }
+
+    .gallery-img{
+        width: 15rem !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .work-example{
+        width: 15rem !important;
+    }
+
+    .gallery-sm{
+        display: inline-flex !important;
+        margin-left: 3.5rem !important;
+    }
+
+    .section-mq{
+        margin-left: 2rem !important;
+    }
+
+    .card{
+        width: 15rem !important;
+    }
+}

@@ -1,0 +1,46 @@
+.contact{
+    background-color: #dededc !important;
+    text-align: center !important;
+    background: url('../../images/background.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    padding-top: 3rem !important;
+}
+
+.page-wrapper{
+    max-width: 1080px !important;
+    margin: auto !important;
+}
+
+.wrapper{
+    padding: 25px 0px !important;
+}
+
+.section-header{
+    margin: auto !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+    background: linear-gradient(to right, #000 0%, #6D8B74 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    border-radius: .3rem !important;
+    border: .8px solid #000 !important
+}
+
+.contact-text{
+    margin: auto !important;
+    text-align: center !important;
+    width: 65%;
+}

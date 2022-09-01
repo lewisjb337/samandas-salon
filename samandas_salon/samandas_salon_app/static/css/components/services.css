@@ -1,0 +1,34 @@
+.services-wrapper{
+    width: 100%;
+    height: auto;
+    background-color: #EFEFEF;
+}
+
+.section-header{
+    margin: auto !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+    background: linear-gradient(to right, #000 0%, #6D8B74 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-section-header{
+    margin-bottom: 2rem !important;
+    background: linear-gradient(to right, #000 0%, #6D8B74 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sm-screen{
+    display: none;
+}
+
+.sm-screen-pricing{
+    display: none;
+    margin-top: -5rem !important;
+}
+
+.xsm-screen-pricing{
+    display: none;
+}

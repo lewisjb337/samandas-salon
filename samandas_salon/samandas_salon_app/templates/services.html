@@ -1,0 +1,176 @@
+{% extends 'index.html' %}
+
+<!-- Tab Title -->
+{% block tab_title %}Samadas Salon - Services{% endblock %}
+
+<!-- Body Content -->
+{% block body_content %}
+<div class="services">
+    <div class="page-wrapper">
+        <div class="section-header">
+            <h1>Services</h1>
+            <p>View all of our available services, get in touch with us to book in your appointment.</p>
+        </div>
+        <div class="wrapper service-items">
+            <div class="row">
+                <div class="sub-section-header mb-4 mt-4">
+                    <h2 class="section_text">Lashes</h2>
+                </div>
+                {% for service in services %}
+                    {% if service.service_category == 'Lashes' %}
+                    <div class="col-4 lg-screen-pricing">
+                        <article class="card__content grid-custom mb-4 mt-4">
+                            <div class="card__pricing">
+                                <div class="card__pricing-number">
+                                    <span class="card__pricing-symbol">£</span>{{ service.service_price }}
+                                </div>
+                            </div>
+                            <header class="card__header mt-4">
+                                <h1 class="card__header-title">{{ service.service_name }}</h1>
+                            </header>
+                            <p class="card_text">
+                                {{ service.service_description }}
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-6 sm-screen-pricing">
+                        <article class="card__content grid-custom mb-4 mt-4">
+                            <div class="card__pricing">
+                                <div class="card__pricing-number">
+                                    <span class="card__pricing-symbol">£</span>{{ service.service_price }}
+                                </div>
+                            </div>
+                            <header class="card__header mt-4">
+                                <h1 class="card__header-title">{{ service.service_name }}</h1>
+                            </header>
+                            <p>
+                                {{ service.service_description }}
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-12 xsm-screen-pricing">
+                        <article class="card__content grid-custom mb-4 mt-4">
+                            <div class="card__pricing">
+                                <div class="card__pricing-number">
+                                    <span class="card__pricing-symbol">£</span>{{ service.service_price }}
+                                </div>
+                            </div>
+                            <header class="card__header mt-4">
+                                <h1 class="card__header-title">{{ service.service_name }}</h1>
+                            </header>
+                            <p>
+                                {{ service.service_description }}
+                            </p>
+                        </article>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+                <div class="sub-section-header mb-4 mt-4">
+                    <h2 class="section_text">Nails</h2>
+                </div>
+                {% for service in services %}
+                    {% if service.service_category == 'Nails' %}
+                    <div class="col-4 lg-screen-pricing">
+                        <article class="card__content grid-custom mb-4 mt-4">
+                            <div class="card__pricing">
+                                <div class="card__pricing-number">
+                                    <span class="card__pricing-symbol">£</span>{{ service.service_price }}
+                                </div>
+                            </div>
+                            <header class="card__header mt-4">
+                                <h1 class="card__header-title">{{ service.service_name }}</h1>
+                            </header>
+                            <p>
+                                {{ service.service_description }}
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-6 sm-screen-pricing">
+                        <article class="card__content grid-custom mb-4 mt-4">
+                            <div class="card__pricing">
+                                <div class="card__pricing-number">
+                                    <span class="card__pricing-symbol">£</span>{{ service.service_price }}
+                                </div>
+                            </div>
+                            <header class="card__header mt-4">
+                                <h1 class="card__header-title">{{ service.service_name }}</h1>
+                            </header>
+                            <p>
+                                {{ service.service_description }}
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-12 xsm-screen-pricing">
+                        <article class="card__content grid-custom mb-4 mt-4">
+                            <div class="card__pricing">
+                                <div class="card__pricing-number">
+                                    <span class="card__pricing-symbol">£</span>{{ service.service_price }}
+                                </div>
+                            </div>
+                            <header class="card__header mt-4">
+                                <h1 class="card__header-title">{{ service.service_name }}</h1>
+                            </header>
+                            <p>
+                                {{ service.service_description }}
+                            </p>
+                        </article>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+                <div class="sub-section-header mb-4 mt-4">
+                    <h2 class="section_text">Spa</h2>
+                </div>
+                {% for service in services %}
+                    {% if service.service_category == 'Spa' %}
+                    <div class="col-4 lg-screen-pricing">
+                        <article class="card__content grid-custom mb-4 mt-4">
+                            <div class="card__pricing">
+                                <div class="card__pricing-number">
+                                    <span class="card__pricing-symbol">£</span>{{ service.service_price }}
+                                </div>
+                            </div>
+                            <header class="card__header mt-4">
+                                <h1 class="card__header-title">{{ service.service_name }}</h1>
+                            </header>
+                            <p>
+                                {{ service.service_description }}
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-6 sm-screen-pricing">
+                        <article class="card__content grid-custom mb-4 mt-4">
+                            <div class="card__pricing">
+                                <div class="card__pricing-number">
+                                    <span class="card__pricing-symbol">£</span>{{ service.service_price }}
+                                </div>
+                            </div>
+                            <header class="card__header mt-4">
+                                <h1 class="card__header-title">{{ service.service_name }}</h1>
+                            </header>
+                            <p>
+                                {{ service.service_description }}
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-12 xsm-screen-pricing">
+                        <article class="card__content grid-custom mb-4 mt-4">
+                            <div class="card__pricing">
+                                <div class="card__pricing-number">
+                                    <span class="card__pricing-symbol">£</span>{{ service.service_price }}
+                                </div>
+                            </div>
+                            <header class="card__header mt-4">
+                                <h1 class="card__header-title">{{ service.service_name }}</h1>
+                            </header>
+                            <p>
+                                {{ service.service_description }}
+                            </p>
+                        </article>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

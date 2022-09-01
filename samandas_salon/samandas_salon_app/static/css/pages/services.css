@@ -1,0 +1,36 @@
+.services{
+    background-color: #D4F6CC !important;
+    text-align: center !important;
+    padding-top: 3rem;
+    color: #6D8B74 !important;
+}
+
+.page-wrapper{
+    max-width: 1080px !important;
+    margin: auto !important;
+}
+
+.service-items{
+    margin-top: -3rem !important;
+}
+
+.section-header{
+    margin: auto !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+    background: linear-gradient(to right, #000 0%, #6D8B74 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.card__header-title{
+    color: #6D8B74 !important;
+}
+
+.card_text{
+    color: #6D8B74 !important;
+}
+
+.section_text{
+    color: #6D8B74 !important;
+}

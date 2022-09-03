@@ -16,7 +16,7 @@
 @media screen and (max-width: 1270px) {
     .contact-form{
         margin: auto !important;
-        width: 60% !important;
+        width: 80% !important;
     }
 
     .contact-section-mq{
@@ -159,7 +159,20 @@
     }
 
     .mapouter{
-        width: 60% !important
+        width: 80% !important;
+        padding-top: 2rem !important;
+    }
+
+    .sm-screen-contact{
+        padding-top: 2rem !important;
+    }
+
+    .contact{
+        background-image: none !important;
+    }
+
+    .contact-text{
+        padding-top: 2rem !important;
     }
 }
 

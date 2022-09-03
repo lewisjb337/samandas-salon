@@ -1,9 +1,7 @@
 .hero{
     margin-top: 5rem !important;
     text-shadow: 2px #000 !important;
-    background: linear-gradient(to right, #000 0%, #6D8B74 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    color: #6D8B74 !important;
 }
 
 .hero-content{

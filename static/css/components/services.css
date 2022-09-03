@@ -8,9 +8,7 @@
     margin: auto !important;
     text-align: center !important;
     margin-bottom: 2rem !important;
-    background: linear-gradient(to right, #000 0%, #6D8B74 75%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    color: #6D8B74 !important;
 }
 
 .sub-section-header{

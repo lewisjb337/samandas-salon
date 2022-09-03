@@ -1,7 +1,7 @@
 .gallery{
     background-color: #D4F6CC !important;
     text-align: center !important;
-    padding-top: 3rem !important;
+    padding: 3rem 1rem 1rem 1rem;
 }
 
 .section-header{

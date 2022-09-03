@@ -180,4 +180,10 @@
     .card{
         width: 15rem !important;
     }
+
+    .about-text{
+        margin-top: -1.5rem !important;
+        padding: 0 !important;
+        width: 110% !important;
+    }
 }

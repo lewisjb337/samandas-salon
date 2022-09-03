@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+html{
+    /* Alignment */
+    box-sizing: border-box;
+
+    /* Font */
+    font-size: 100%;
+}
+
+*, *::before, *::after{
+    /* Alignment */
+    box-sizing: inherit;
+}
+
+body{
+    /* Spacing */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #DEDEDC;
+    font-family: 'Manrope', sans-serif !important;
+}
+
+.error{
+    margin: auto !important;
+    text-align: center !important;
+    margin-top: 10rem !important;
+}
